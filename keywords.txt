@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For DS1302mh
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DS1302mh          KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+getTime           KEYWORD2
+setTime           KEYWORD2
+getTimeStr        KEYWORD2
+getDateStr        KEYWORD2
+getDOWStr         KEYWORD2
+getMonthStr       KEYWORD2
+clock_burst_read  KEYWORD2
+clock_burst_write KEYWORD2
+read              KEYWORD2
+write             KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
