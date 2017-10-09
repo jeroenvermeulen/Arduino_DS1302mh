@@ -20,7 +20,7 @@ void setup()
   Serial.begin(9600);
   Serial.println(F("DS1302 Real Time Clock"));
 
-  // Set a time and date
+  // Set a time and date. You only need to do this once.
   // Day of week (dow) counts 1...7, Monday is 2nd day of Week.
 
   //          sec min hrs, dow, day, month, year
@@ -36,11 +36,12 @@ void loop()
   
   // Send date
   Serial.print(rtc.getDateStr());
-  Serial.print(" -- ");
+  Serial.print(", ");
 
   // Send time
   Serial.println(rtc.getTimeStr());  
 
-  delay( 1000);
+  // Sleep one second.
+  delay(1000);
 }
 
